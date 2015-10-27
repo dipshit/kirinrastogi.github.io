@@ -9,23 +9,49 @@
 
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
+      <!--Change static to fixed if needed-->
+
       <div class="container">
-        <a href="#" class="navbar-brand">Navigation</a>
+          <a href="#top" class="navbar-brand">Kirin Rastogi</a>
+
+          <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <!--Something wrong with navbar menu when browser is shrinked-->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
         <div class="collapse navbar-collapse navHeaderCollapse">
 
           <ul class="nav navbar-nav navbar-right">
-            <li> <a href="#">Top</a></li>
-            <li> <a href="#">About Me</a></li>
-            <li> <a href="#">Projects</a></li>
-            <li> <a href="#">Resume</a></li>
+            <li class="active"> <a href="#top">Home</a></li>
+            <li> <a href="#top">About Me</a></li>
+            <li> <a href="#projects">Projects</a></li>
+            <li> <a href="#resume">Resume</a></li>
           </ul>
 
         </div>
       </div>
     </div>
 
+    <div class="about">
+      <div class="jumbotron">
+          <div class="container">
+            <h3 id="top">About Me</h3>
+              <div class="row">
+                <h3>
+                  <img src="https://pbs.twimg.com/profile_images/639209085452337156/CdB5s1vO.jpg"></img>
+                Heading 1</h3>
+                <p>Paragraph 1</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/10.1.2/jquery.min.js"></script>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
   </body>
 </html>
