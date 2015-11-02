@@ -1,57 +1,85 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Kirin Rastogi</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-  </head>
+<html lang="en">
 
-  <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <!--Change static to fixed if needed-->
+<head>
+  <title>Kirin Rastogi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
 
-      <div class="container">
-          <a href="#top" class="navbar-brand">Kirin Rastogi</a>
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
 
-          <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-            <!--Something wrong with navbar menu when browser is shrinked-->
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+    <div class="container">
+      <a href="#top" class="navbar-brand">Kirin Rastogi</a>
 
-        <div class="collapse navbar-collapse navHeaderCollapse">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"> <a href="#top">Home</a></li>
-            <li> <a href="#top">About Me</a></li>
-            <li> <a href="#projects">Projects</a></li>
-            <li> <a href="#resume">Resume</a></li>
-          </ul>
+      <div class="collapse navbar-collapse navHeaderCollapse">
 
-        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li> <a href="#top">Home</a></li>
+          <li> <a href="#top">About Me</a></li>
+          <li> <a href="#projects">Projects</a></li>
+          <li> <a href="#resume">Resume</a></li>
+        </ul>
+
       </div>
     </div>
+  </div>
 
-    <div class="about">
-      <div class="jumbotron">
-          <div class="container">
-            <h3 id="top">About Me</h3>
-              <div class="row">
-                <h3>
-                  <img src="https://pbs.twimg.com/profile_images/639209085452337156/CdB5s1vO.jpg"></img>
-                Heading 1</h3>
-                <p>Paragraph 1</p>
+  <div class="about" id="top">
+    <div class="jumbotron">
+      <div class="container">
+        <h3>About Me</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <!-- Img of me-->
+            <img class="resize1" src="img/img1.jpg"></img>
+          </div>
+          <div class="col-md-8">
+            <!-- Stuff about me-->
+            <p>This is a paragraph about me, it is longer so I can see what the formatting is like on my site. I am going to change the picture and clean up the formatting of this section. This is a paragraph about me, it is longer so I can see what the
+              formatting is like on my site. I am going to change the picture and clean up the formatting of this section.</p>
+          </div>
+        </div>
+
+        <hr noshade>
+        <!--Projects-->
+        <!-- Title-->
+        <div class="jumbotron">
+          <div class="container-fluid">
+            <h3 id="projects">Projects</h3>
+            <div class="row">
+              <div class="col-md-4">
+                <h4>Minecraft Plugins</h4>
               </div>
+
+              <div class="col-md-4">
+                <h4>Space Invaders</h4>
+              </div>
+
+              <div class="col-md-4">
+                <h4>Programming Competition</h4>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  </div>
 
 
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/custom.js"></script>
-  </body>
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
 </html>
