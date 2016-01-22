@@ -29,11 +29,13 @@ img.center {
 }
 
 .container h2 {
-
+	text-align: center;
 }
 
 .container h1 {
-
+	text-align: left;
+	text-decoration: underline;
+	font-size: 12px;
 }
 
 .container-fluid h3 {
