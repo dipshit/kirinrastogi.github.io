@@ -23,6 +23,11 @@ img.center {
 	margin: 0 auto;
 }
 
+p.font3 {
+	text-align: center;
+	font-size: 55px;
+}
+
 .container h3 {
   /* Identical style to containerfluid h3*/
   font-size: 60px;
@@ -35,7 +40,17 @@ img.center {
 .container h1 {
 	text-align: left;
 	text-decoration: underline;
-	font-size: 12px;
+	font-size: 20px;
+}
+
+.container h4 {
+	text-align: center;
+	font-size: 15px;
+}
+
+p.font1 {
+	text-indent: 15px;
+	font-size: 15px;
 }
 
 .container-fluid h3 {
@@ -52,9 +67,13 @@ img.center {
 	text-align: center;
 }
 
+.col-md-6 h1{
+	text-align: center;
+}
+
 .col-md-8 p {
 	text-align: justify;
-  text-indent: 50px
+  	text-indent: 50px
 }
 
 .col-md-4 p {
