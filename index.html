@@ -1,153 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <title>Kirin Rastogi</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet">
-</head>
+  <head>
+    <title>Kirin Rastogi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
 
-<body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
 
-    <div class="container">
-      <a href="#top" class="navbar-brand">Kirin Rastogi</a>
-
-      <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
-      <div class="collapse navbar-collapse navHeaderCollapse">
-
-        <ul class="nav navbar-nav navbar-right">
-          <li> <a href="#top">About Me</a></li>
-          <li> <a href="#projects">Projects</a></li>
-          <li> <a href="#experience">Experience</a></li>
-          <li> <a href="resume.html">Resume</a></li>
-        </ul>
-
-      </div>
-    </div>
-  </div>
-
-  <div class="about" id="top">
-    <div class="jumbotron">
       <div class="container">
-        <h3>About Me</h3>
-        <div class="row" style="padding-bottom: 100px;">
-          <div class="col-md-4">
-            <!-- Img of me-->
-            <img class="resize1" src="img/me.jpg"></img>
-          </div>
-          <div class="col-md-8">
-            <!-- Stuff about me-->
-            <p>I am a Software Engineering student at Carleton University. I started my first year in 2015. I take an interest to software, and software design, particularly to security. My hobbies include making mods or plugins for video games, ethical hacking, and seeing how things work from a software standpoint. Below you will see my previous projects, resume, and descriptions of my work experience.</p>
-          </div>
+        <a href="#top" class="navbar-brand">Kirin Rastogi</a>
+
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse navHeaderCollapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li> <a href="https://github.com/kirinrastogi" target="_blank">GitHub/Projects</a></li>
+            <li> <a href="https://www.linkedin.com/in/kirinrastogi/" target="_blank"> LinkedIn/Experience</a></li>
+            <li> <a href="https://drive.google.com/open?id=0B6viTulDk-xZMnFXVTN2b3daSVE" target="_blank">Resume</a></li>
+          </ul>
+
         </div>
-
-        <hr noshade>
-        <!--Projects-->
-        <!-- Title-->
-        <div class="jumbotron" id="projects">
-          <div class="container-fluid">
-            <h3>Projects On My Github</h3>
-            <div class="row">
-              <div class="col-md-4">
-                <h4><a href="https://github.com/kirinrastogi/LANMessengerServer/" target="_blank">LANMessengerServer</a></h4>
-                <img src="img/node.png" class="resize3"></img>
-				<p style="padding-top: 18px;">The LANMessengerServer that I created is a secure way of storing, and retrieving messages to others, or notes to yourself while on the same network as the server. It uses Node, Mongo. It also uses good security practices such as end-to-end RSA encryption, and MAC filtering, and authentication for posting.</p>
-              </div>
-
-              <div class="col-md-4">
-                <h4><a href="https://github.com/kirinrastogi/SimpleAntiVirus/" target="_blank">Simple AntiVirus</a></h4>
-                <img src="img/py2.png" class="resize2"></img>
-				<p style="padding-top: 0px;">My Simple AntiVirus is an antivirus in python that collects hashes from a remote database at <a href="https://virusshare.com/">VirusShare</a>, and compares the files you are scanning to the malicious, detected hashes.</p>
-              </div>
-
-				<div class="col-md-4">
-                <h4><a href="https://github.com/kirinrastogi/ReignManager/" target="_blank">Minecraft Plugins</a></h4>
-                <img src="img/castle.png" class="resize2"></img>
-              	<p style="padding-top: 30px;">My largest project is a plugin for a Java Minecraft Server. It uses principles of Object-Oriented design to create gameplay, and uses checks on players as an anticheat. While working on it I gained some experience with firewalls, and good server practices.</p>
-			  </div>
-
-            </div>
-			
-
-			<div class="row">
-              <div class="col-md-4">
-                <h4><a href="https://github.com/kirinrastogi/SpaceInvaders/" target="_blank">Space Invaders</a></h4>
-                <img src="img/si2.png" class="resize3"></img>
-                <p style="padding-top: 40px;">Space Invaders was a school project in which I recreated a popular arcade game using object oriented principles in Java. It features a UI, and difficulty selector. It is the project that I am the most proud of, as it has a very clean
-                  design, and clean code.</p>
-              </div>
-				
-				<div class="col-md-4">
-                <h4> <a href="https://github.com/kirinrastogi/HiveSense/" target="_blank">HiveSense</a></h4>
-                <img src="img/HiveSenseTop.png" class="resize3"></img>
-              	<p style="padding-top: 0px;">I competed at Random Hacks of Kindness with TwelveDot to create a beehive monitoring system. I was in charge of the app, UX, and displaying data. I used iOS coding principles with a web server to read data.</p>
-			  </div>
-			
-              <div class="col-md-4">
-                <h4> <a href="https://github.com/VikramBombhi/EngComp2015/" target="_blank">EngComp 2015</a></h4>
-                <img src="img/washer.png" class="resize3"></img>
-                <p style="padding-top: 22px;">I competed with a group of friends in the Carleton 2015 Engineering Competition for the programming section. The challenge was to make a program to help in quality assurance to assess images of washers.</p>
-              </div>
-
-            </div>
-          
-			</div>
-        </div>
-
-        <hr noshade>
-        
-        <!-- Cover letter/experience -->
-        
-        <div class="jumbotron" id="experience">
-        	<div class="container-fluid">
-        		<h3>Work Experience</h3>
-        		<div class="row">
-        			<div class="col-md-4">
-        				<h4>Security Analyst</h4>
-						<h5>TwelveDot Inc.</h5>
-						<p>- Implemented network traffic analysis suite to check communication logs for malicious activity by using remote database and GPU-accelerated computing.</p>
-						<p>- Demonstrated MITM attacks, and prevention techniques to a non-technical audience to educate them on common tactics used to breach companies.</p>
-						<p>- Collaborated on iOS app used to track users using a cloud interface.</p>
-        			</div>
-        			
-        			<div class="col-md-4">
-        				<h4>QA Engineer</h4>
-						<h5>Magmic Inc.</h5>
-						<p>- Collaborated to test and debug applications to find bugs using a team-oriented style for multi-user applications.</p>
-        				<p>- Filed reports using JIRA to explain bugs, and steps to reproduce for developers and upper management to schedule fixes based on the importance of the bug described in the report.</p>
-					</div>
-        			
-        			<div class="col-md-4">
-        				<h4>Java Developer</h4>
-						<h5>Yom Network</h5>
-						<p>- Independently maintained a Java game server by interviewing users and managers, and adding features and modifications using Object Oriented principles based on feedback.</p>
-						<p>- Implemented measures for anti-cheat, and firewall using analysis of server's needs, and what type of data it would be processing to improve performance and limit attacks/exploits.</p>
-        			</div>
-        			
-        		</div>
-
-				<div class="row">
-					<div class="col-md-4">
-						<h4>Android Developer</h4>
-						<h5>bv02</h5>
-						<p>- Collaborated in a team environment using git to control version for development of an app used in music education, and scheduling.</p>
-					</div>
-				</div>
-        	</div>
-        </div>
-
       </div>
     </div>
-  </div>
-  </div>
 
+    <div class="about" id="top">
+      <div class="jumbotron">
+        <div class="container">
+          <h3>About Me</h3>
+          <div class="row" style="padding-bottom: 100px;">
+            <div class="col-md-4">
+              <!-- Img of me-->
+              <img class="resize1" src="img/me.jpg"></img>
+            </div>
+            <div class="col-md-8">
+              <!-- Stuff about me-->
+              <p>I am a Software Engineering student at Carleton University. I started my first year in 2015. I take an interest to software, and software design, particularly to security. My hobbies include making mods or plugins for video games, ethical hacking, and seeing how things work from a software standpoint. Below you will see my previous projects, resume, and descriptions of my work experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
